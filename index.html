@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 
 <body>
@@ -144,7 +145,7 @@
   <section class="contact" id="contact">
     <div class="row">
       <h2>Get in Touch</h2>
-      <form action="submit-form.php" method="post">
+      <form action="https://send.pageclip.co/Xik3zOs7L45reyMJTb3uYNdyjCYzPKJs" class="pageclip-form" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your Name" required>
   
@@ -154,7 +155,9 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message" placeholder="Anything you want to tell" required></textarea>
   
-        <button class="btn" type="submit">Send</button>
+        <button type="submit" class="pageclip-form__submit btn">
+          <span>Send</span>
+  </button>
       </form>
     </div>
   </section>
@@ -198,6 +201,7 @@
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
   </a>
   <script src="./index.js"></script>
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
